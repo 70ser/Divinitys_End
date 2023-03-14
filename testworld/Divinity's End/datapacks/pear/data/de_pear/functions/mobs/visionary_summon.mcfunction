@@ -1,0 +1,2 @@
+summon vex ~ ~ ~ {Tags:["mob_vapor_spirit"],LifeTicks:300,CustomName:'{"text":"Call of the Vapors","color":"white","italic":false}',ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;-700933268,1075333996,-1156945916,-859483202],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA5NmIwZDdlZGRmN2IwNTlmYjQwY2ExNmZmMjllOGZjYWU4NTI3NTEyZTJjN2UwZjY3MTdjNGZlYmQ3YjBjNSJ9fX0="}]}}}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}
+tp @s ~ -100 ~

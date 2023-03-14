@@ -1,0 +1,2 @@
+execute if data storage s_netfix item.tag.AttributeModifiers[{AttributeName:"generic.armor_toughness",Slot:"head"}] run function suso_de:netherite_fix/helmet/toughness/add
+execute unless data storage s_netfix item.tag.AttributeModifiers[{AttributeName:"generic.armor_toughness",Slot:"head"}] run function suso_de:netherite_fix/helmet/toughness/new

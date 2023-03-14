@@ -1,0 +1,22 @@
+playsound minecraft:entity.vindicator.ambient master @a 2338.5 162.00 -115.5 5 0.9
+
+function suso_de:rng/lcg
+scoreboard players operation $temp suso_var = $rng suso_var
+scoreboard players operation $temp suso_var %= #15 suso_var
+execute if score $temp suso_var matches 0 run tellraw @a [{"text":"\n<","color":"gray","bold":true},{"text":"The Curator","color":"#600078","bold":true},{"text":"> ","color":"gray"},{"text":"Are you done?","color":"gray","bold":false}]
+execute if score $temp suso_var matches 1 run tellraw @a [{"text":"\n<","color":"gray","bold":true},{"text":"The Curator","color":"#600078","bold":true},{"text":"> ","color":"gray"},{"text":"I've got more where those came from!","color":"gray","bold":false}]
+execute if score $temp suso_var matches 2 run tellraw @a [{"text":"\n<","color":"gray","bold":true},{"text":"The Curator","color":"#600078","bold":true},{"text":"> ","color":"gray"},{"text":"You really like breaking those little boxes, don't you?","color":"gray","bold":false}]
+execute if score $temp suso_var matches 3 run tellraw @a [{"text":"\n<","color":"gray","bold":true},{"text":"The Curator","color":"#600078","bold":true},{"text":"> ","color":"gray"},{"text":"Struggling to keep up?","color":"gray","bold":false}]
+execute if score $temp suso_var matches 4 run tellraw @a [{"text":"\n<","color":"gray","bold":true},{"text":"The Curator","color":"#600078","bold":true},{"text":"> ","color":"gray"},{"text":"This isn't over yet","color":"gray","bold":false}]
+execute if score $temp suso_var matches 5 run tellraw @a [{"text":"\n<","color":"gray","bold":true},{"text":"The Curator","color":"#600078","bold":true},{"text":"> ","color":"gray"},{"text":"Are you dead yet?","color":"gray","bold":false}]
+execute if score $temp suso_var matches 6 run tellraw @a [{"text":"\n<","color":"gray","bold":true},{"text":"The Curator","color":"#600078","bold":true},{"text":"> ","color":"gray"},{"text":"I still have a few more for you to break","color":"gray","bold":false}]
+execute if score $temp suso_var matches 7 run tellraw @a [{"text":"\n<","color":"gray","bold":true},{"text":"The Curator","color":"#600078","bold":true},{"text":"> ","color":"gray"},{"text":"Oh, I really thought those would get you","color":"gray","bold":false}]
+execute if score $temp suso_var matches 8 run tellraw @a [{"text":"\n<","color":"gray","bold":true},{"text":"The Curator","color":"#600078","bold":true},{"text":"> ","color":"gray"},{"text":"Still standing? Quite impressive for a mortal","color":"gray","bold":false}]
+execute if score $temp suso_var matches 9 run tellraw @a [{"text":"\n<","color":"gray","bold":true},{"text":"The Curator","color":"#600078","bold":true},{"text":"> ","color":"gray"},{"text":"You just want to get into trouble, don't you?","color":"gray","bold":false}]
+execute if score $temp suso_var matches 10 run tellraw @a [{"text":"\n<","color":"gray","bold":true},{"text":"The Curator","color":"#600078","bold":true},{"text":"> ","color":"gray"},{"text":"You won't make it out of here alive!","color":"gray","bold":false}]
+execute if score $temp suso_var matches 11 run tellraw @a [{"text":"\n<","color":"gray","bold":true},{"text":"The Curator","color":"#600078","bold":true},{"text":"> ","color":"gray"},{"text":"Rewriting the universe isn't exactly easy. It takes time and you're wasting mine.","color":"gray","bold":false}]
+execute if score $temp suso_var matches 12 run tellraw @a [{"text":"\n<","color":"gray","bold":true},{"text":"The Curator","color":"#600078","bold":true},{"text":"> ","color":"gray"},{"text":"You know... you could just stop this now by dying. Would help a ton.","color":"gray","bold":false}]
+execute if score $temp suso_var matches 13 run tellraw @a [{"text":"\n<","color":"gray","bold":true},{"text":"The Curator","color":"#600078","bold":true},{"text":"> ","color":"gray"},{"text":"This is boring to watch.","color":"gray","bold":false}]
+execute if score $temp suso_var matches 14 run tellraw @a [{"text":"\n<","color":"gray","bold":true},{"text":"The Curator","color":"#600078","bold":true},{"text":"> ","color":"gray"},{"text":"The void looks nice, doesn't it? You'll be back into it soon enough.'","color":"gray","bold":false}]
+
+scoreboard players set $next_area suso_var 1

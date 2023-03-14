@@ -1,0 +1,1 @@
+tellraw @a[tag=vr.in_void] [{"text":"<","color":"gray"},{"text":"The Primordial Void","color":"#643DFF","bold":true},{"text":"> ","color":"gray"},{"text":"Farewell, champion of the void. You have done well.","color":"gray","italic":false}]

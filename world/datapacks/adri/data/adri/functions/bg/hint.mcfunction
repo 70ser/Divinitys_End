@@ -1,0 +1,2 @@
+tellraw @s [{"text":"\nIt seems like some sort of ancient mechanism... It reads:\n\n","color":"gold"},{"text":"\"My essence housed in the center of the world\n    I am the guide to many stories to be told.\"\n","color":"gray","italic":true}]
+playsound minecraft:item.trident.thunder master @s ~ ~ ~ 1 0 1

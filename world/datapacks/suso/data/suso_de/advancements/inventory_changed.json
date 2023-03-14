@@ -1,0 +1,10 @@
+{
+  "rewards": {
+    "function": "suso_de:inventory_changed"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed"
+    }
+  }
+}

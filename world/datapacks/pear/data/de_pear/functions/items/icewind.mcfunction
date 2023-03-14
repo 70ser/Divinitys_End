@@ -1,0 +1,1 @@
+effect give @e[type=#cartographer_core:hostile,distance=..5] slowness 1 1

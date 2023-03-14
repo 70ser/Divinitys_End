@@ -1,0 +1,99 @@
+{
+  "cartographer_custom_enchantments:root": {
+    "criteria": {
+      "tick": "2023-03-14 12:50:20 +0800"
+    },
+    "done": true
+  },
+  "cartographer_mob_abilities:death/death_abilities": {
+    "criteria": {
+      "tick": "2023-03-14 12:50:20 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_enchantments:tree_other": {
+    "criteria": {
+      "tick": "2023-03-14 12:50:20 +0800"
+    },
+    "done": true
+  },
+  "cartographer_mob_abilities:active/active_abilities": {
+    "criteria": {
+      "tick": "2023-03-14 12:50:20 +0800"
+    },
+    "done": true
+  },
+  "example:player_init": {
+    "criteria": {
+      "init": "2023-03-14 12:50:21 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_statuses:root": {
+    "criteria": {
+      "tick": "2023-03-14 12:50:20 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_enchantments:tree_melee": {
+    "criteria": {
+      "tick": "2023-03-14 12:50:20 +0800"
+    },
+    "done": true
+  },
+  "cartographer_mob_abilities:trait/trait_abilities": {
+    "criteria": {
+      "tick": "2023-03-14 12:50:20 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_enchantments:tree_passive": {
+    "criteria": {
+      "tick": "2023-03-14 12:50:20 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_enchantments:tree_ranged": {
+    "criteria": {
+      "tick": "2023-03-14 12:50:20 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_statuses:negative_tree": {
+    "criteria": {
+      "tick": "2023-03-14 12:50:20 +0800"
+    },
+    "done": true
+  },
+  "cartographer_mob_abilities:passive/passive_abilities": {
+    "criteria": {
+      "tick": "2023-03-14 12:50:20 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_enchantments:tree_curse": {
+    "criteria": {
+      "tick": "2023-03-14 12:50:20 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_statuses:positive_tree": {
+    "criteria": {
+      "tick": "2023-03-14 12:50:20 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_enchantments:tree_tool": {
+    "criteria": {
+      "tick": "2023-03-14 12:50:20 +0800"
+    },
+    "done": true
+  },
+  "cartographer_mob_abilities:root": {
+    "criteria": {
+      "tick": "2023-03-14 12:50:20 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}

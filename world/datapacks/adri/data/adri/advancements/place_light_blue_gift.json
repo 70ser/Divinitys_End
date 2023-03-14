@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:light_blue_glazed_terracotta",
+                "item": {
+                    "nbt": "{display:{Lore:['{\"text\":\" \"}','{\"italic\":false,\"color\":\"#DE81AF\",\"text\":\"Bonus Objective Item\"}']}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "adri:monu/place/gift_check/do/light_blue"
+    }
+}

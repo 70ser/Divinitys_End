@@ -1,0 +1,1 @@
+execute positioned 2338.5 162.00 -115.5 as @e[distance=..100,type=!minecraft:armor_stand,type=!minecraft:player,type=!minecraft:sheep,type=!minecraft:item,type=!minecraft:trident] at @s run function suso_de:boss/spawners/kill_enemies2

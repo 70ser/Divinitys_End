@@ -1,0 +1,10 @@
+execute if entity @s[scores={ca.regen=1}] run scoreboard players add @s ca.regen_bank 25
+execute if entity @s[scores={ca.regen=2}] run scoreboard players add @s ca.regen_bank 34
+execute if entity @s[scores={ca.regen=3}] run scoreboard players add @s ca.regen_bank 42
+execute if entity @s[scores={ca.regen=4}] run scoreboard players add @s ca.regen_bank 50
+execute if entity @s[scores={ca.regen=5}] run scoreboard players add @s ca.regen_bank 59
+execute if entity @s[scores={ca.regen=6}] run scoreboard players add @s ca.regen_bank 67
+execute if entity @s[scores={ca.regen=7}] run scoreboard players add @s ca.regen_bank 75
+execute if entity @s[scores={ca.regen=8}] run scoreboard players add @s ca.regen_bank 84
+execute if entity @s[scores={ca.regen=9}] run scoreboard players add @s ca.regen_bank 92
+execute if entity @s[scores={ca.regen=10}] run scoreboard players add @s ca.regen_bank 100

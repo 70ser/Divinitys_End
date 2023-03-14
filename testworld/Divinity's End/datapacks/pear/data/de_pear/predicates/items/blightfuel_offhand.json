@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "nbt": "{display:{Name:'{\"text\":\"Blight Battery\",\"color\":\"#9EBA2D\",\"italic\":false}'}}"
+      }
+    },
+    "player": {}
+  }
+}

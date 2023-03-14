@@ -1,0 +1,1 @@
+execute as @e[type=wither_skeleton,tag=cryptsummon,tag=has_summoned] at @s run function kunii:summoner/summon

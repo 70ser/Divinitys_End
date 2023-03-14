@@ -1,0 +1,3 @@
+tellraw @a [{"text":"<","color":"gray"},{"text":"Echo of Reality","color":"light_purple"},{"text":"> Your journey is almost at an end, if it led you here. Collect the final aspects of space and time, utilizing the power of reality itself to shape items to your will. End this accursed and tortured world.","color":"gray"}]
+
+execute as @a at @s run playsound minecraft:entity.villager.ambient neutral @s ~ ~ ~ 0.5 1

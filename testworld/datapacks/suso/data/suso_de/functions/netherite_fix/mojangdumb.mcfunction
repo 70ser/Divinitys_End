@@ -1,0 +1,1 @@
+execute as @a[tag=mojang_is_very_very_very_very_very_very_very_very_very_very_very_dumb] run function suso_de:netherite_fix/main

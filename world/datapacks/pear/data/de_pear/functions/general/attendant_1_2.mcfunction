@@ -1,0 +1,3 @@
+tellraw @a [{"text":"<","color":"gray"},{"text":"Floral Attendant","color":"dark_green"},{"text":"> The lord Resolved is out on business for the first time in a long time, able to leave our grove again. Hopefully he has faired well in his travels. In his absence, I can offer you some of his tools, for a price.","color":"gray"}]
+
+execute as @a at @s run playsound minecraft:entity.villager.ambient neutral @s ~ ~ ~ 0.5 1

@@ -1,0 +1,14 @@
+{
+    "pack": {
+        "pack_format": 10,
+        "description": "roasted garlic summer sausage"
+    },
+    "filter": {
+        "block": [
+            {
+                "namespace": "minecraft",
+                "path": "advancements/.*"
+            }
+        ]
+    }
+}

@@ -1,0 +1,1 @@
+execute as @e[type=#cartographer_core:hostile,distance=..5,nbt=!{HurtTime:0s}] at @s run execute unless entity @s[scores={damocles_time=1..}] run scoreboard players set @s damocles_time 4

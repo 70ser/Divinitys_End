@@ -1,0 +1,3 @@
+tellraw @a [{"text":"<","color":"gray"},{"text":"Scribe's Echo","color":"white"},{"text":"> You can use the table here to repair your gear and weapons, for a price. I can reach into the world beyond and grant you resources from it, assuming you have material of the fallen to power the cost.","color":"gray"}]
+
+execute as @a at @s run playsound minecraft:entity.villager.ambient neutral @s ~ ~ ~ 0.5 1

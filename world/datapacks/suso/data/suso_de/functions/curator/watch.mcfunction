@@ -1,0 +1,2 @@
+execute at 00000783-C470-0000-0000-000000000000 facing entity @s feet run tp 00000783-C470-0000-0000-000000000000 ~ ~ ~ ~ ~
+execute as 00000783-C470-0000-0000-000000000000 run data modify entity @s Pose.Head[0] set from entity @s Rotation[1]

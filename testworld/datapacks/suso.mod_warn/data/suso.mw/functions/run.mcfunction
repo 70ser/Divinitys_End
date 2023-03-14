@@ -1,0 +1,1 @@
+schedule function suso.mw:detect/do 1s

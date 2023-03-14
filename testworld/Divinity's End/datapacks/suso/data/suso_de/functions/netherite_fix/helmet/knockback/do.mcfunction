@@ -1,0 +1,2 @@
+execute if data storage s_netfix item.tag.AttributeModifiers[{AttributeName:"generic.knockback_resistance",Slot:"head"}] run function suso_de:netherite_fix/helmet/knockback/add
+execute unless data storage s_netfix item.tag.AttributeModifiers[{AttributeName:"generic.knockback_resistance",Slot:"head"}] run function suso_de:netherite_fix/helmet/knockback/new

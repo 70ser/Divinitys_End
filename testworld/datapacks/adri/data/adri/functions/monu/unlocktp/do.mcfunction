@@ -1,0 +1,15 @@
+execute if entity @s[tag=u3] run function adri:monu/unlocktp/tp3
+execute if entity @s[tag=u4] run function adri:monu/unlocktp/tp4
+execute if entity @s[tag=u5] run function adri:monu/unlocktp/tp5
+execute if entity @s[tag=u6] run function adri:monu/unlocktp/tp6
+execute if entity @s[tag=u7] run function adri:monu/unlocktp/tp7
+execute if entity @s[tag=u8] run function adri:monu/unlocktp/tp8
+execute if entity @s[tag=u9] run function adri:monu/unlocktp/tp9
+execute if entity @s[tag=u10] run function adri:monu/unlocktp/tp10
+execute if entity @s[tag=u11] run function adri:monu/unlocktp/tp11
+execute if entity @s[tag=u12] run function adri:monu/unlocktp/tp12
+execute if entity @s[tag=u13] run function adri:monu/unlocktp/tp13
+execute if entity @s[tag=ui1] run function adri:monu/unlocktp/tpi1
+execute if entity @s[tag=ui2] run function adri:monu/unlocktp/tpi2
+execute if entity @s[tag=ui3] run function adri:monu/unlocktp/tpi3
+execute if entity @s[tag=ui4] run function adri:monu/unlocktp/tpi4

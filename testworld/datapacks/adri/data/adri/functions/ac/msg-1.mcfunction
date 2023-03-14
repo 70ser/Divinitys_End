@@ -1,0 +1,5 @@
+tellraw @s [{"text":"\n\nArea -1","color":"#B5A1CC","bold":true,"underlined":false,"obfuscated":true},{"text":" - ","color":"#B5A1CC","bold":true,"obfuscated":false},{"text":"Calls of Chaos","color":"#5E0691","bold":true,"underlined":false,"obfuscated":false},{"text":"\n                                                                 ","color":"gray","strikethrough":true,"obfuscated":false},{"text":"\n\nBy: ","color":"dark_gray","bold":false,"underlined":false,"obfuscated":false},{"text":"Omegaslime","color":"dark_red","bold":true,"underlined":false,"obfuscated":false},{"text":"\nGameplay: ","color":"dark_gray","bold":false,"underlined":false,"obfuscated":false},{"text":"Omegaslime & Gibbsly","color":"red","bold":false,"obfuscated":false},{"text":"\n","color":"dark_gray","bold":false,"underlined":false,"obfuscated":false},{"text":"\n\n","color":"#7A7171","bold":false,"underlined":false,"obfuscated":false}]
+playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ .7 .3 .7
+playsound minecraft:block.netherite_block.fall master @s ~ ~ ~ .8 .1 .8
+playsound minecraft:block.bell.resonate master @s ~ ~ ~ .6 1.3 .6
+tag @s add msg-1

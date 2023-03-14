@@ -1,0 +1,2 @@
+execute if score $i suso_var = @s s_id run data modify storage s_graves working_data set from storage s_graves working_arr[0]
+execute unless score $i suso_var = @s s_id run function suso_de:graves/get/search_player2

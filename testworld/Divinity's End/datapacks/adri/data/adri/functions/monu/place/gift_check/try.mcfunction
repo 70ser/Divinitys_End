@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=bobj,tag=!placed] at @s if block ~ ~1 ~ #adri:glazed_terracotta run function adri:monu/bplace

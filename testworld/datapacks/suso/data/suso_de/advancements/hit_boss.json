@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"boss_up\"]}"
+        },
+        "entity": {
+          "type": "minecraft:zombie",
+          "nbt": "{Tags:[\"boss_hit\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "suso_de:boss/hit/do"
+  }
+}

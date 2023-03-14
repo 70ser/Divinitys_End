@@ -1,0 +1,1 @@
+execute as @e[tag=lord_hit] run data modify entity @s Pose set value {Head:[40f,0f,0f],LeftLeg:[12f,0f,356f],RightLeg:[10f,0f,6f],LeftArm:[350f,0f,10f],RightArm:[350f,0f,352f]}

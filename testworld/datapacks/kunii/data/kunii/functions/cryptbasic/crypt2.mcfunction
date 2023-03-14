@@ -1,0 +1,2 @@
+setblock ~ ~ ~ spawner{SpawnCount:3,SpawnRange:5,Delay:0,MinSpawnDelay:500,MaxSpawnDelay:1000,MaxNearbyEntities:4,RequiredPlayerRange:16,SpawnData:{id:"minecraft:skeleton",Health:20f,Tags:["cryptelite"],CustomName:'{"text":"Undead Soldier","color":"white"}',HandItems:[{id:"minecraft:wooden_sword",Count:1b,tag:{Enchantments:[{id:"minecraft:knockback",lvl:1s}]}},{}],HandDropChances:[0.000F,0.085F],Attributes:[{Name:generic.max_health,Base:20}]}} replace
+#tags - cryptelite

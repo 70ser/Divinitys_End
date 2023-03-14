@@ -1,0 +1,1 @@
+function suso_de:netherite_fix/generic/attack/do

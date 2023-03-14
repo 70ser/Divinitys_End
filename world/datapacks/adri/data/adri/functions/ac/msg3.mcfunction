@@ -1,0 +1,6 @@
+tellraw @s [{"text":"\n\nMonument - ","color":"#7DC0C7","bold":true,"underlined":false},{"text":"Sanctum of Fallen Scribes","color":"#9F42C7","bold":true,"underlined":false},{"text":"\n                                                                 ","color":"gray","strikethrough":true},{"text":"\n\nBy:","color":"dark_gray","bold":false,"underlined":false},{"text":" Caecilleus","color":"dark_red","bold":true,"underlined":false,"hoverEvent":{"action":"show_text","contents":[{"text":"a.k.a. \"Dirto\"","color":"red"}]}},{"text":" & Asometric","color":"dark_red","bold":false,"underlined":false},{"text":"\nGameplay: ","color":"dark_gray","bold":false,"underlined":false},{"text":"Asometric, Nava & PearUhDox","color":"red","bold":false},{"text":"\nAdditional Help: ","color":"dark_gray","bold":false,"underlined":false},{"text":"Nava & PearUhDox\n\n","color":"#7A7171","bold":false,"underlined":false}]
+playsound minecraft:entity.player.levelup master @s ~ ~ ~ .7 1.6 .7
+playsound minecraft:entity.player.levelup master @s ~ ~ ~ .7 .1 .7
+playsound minecraft:block.netherite_block.fall master @s ~ ~ ~ .8 .1 .8
+playsound minecraft:block.bell.resonate master @s ~ ~ ~ .6 1.3 .6
+tag @s add msg3

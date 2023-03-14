@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:lime_glazed_terracotta",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{HideFlags: 33, display: {Lore: ['{\"text\":\" \"}', '{\"italic\":false,\"color\":\"#DE81AF\",\"text\":\"Bonus Objective Item\"}'], Name: '{\"bold\":true,\"italic\":false,\"color\":\"#99FF6E\",\"text\":\"Lime Gift\"}'}, Enchantments: [{lvl: 1s, id: \"minecraft:mending\"}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

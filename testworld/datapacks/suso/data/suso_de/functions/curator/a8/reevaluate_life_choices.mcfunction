@@ -1,0 +1,13 @@
+execute if score $a8_a suso_var matches 40 run data modify entity @s Pose set value {Body:[354f,0f,0f],Head:[333f,0f,0f],LeftLeg:[18f,16f,0f],RightLeg:[12f,348f,0f],LeftArm:[205f,0f,14f],RightArm:[325f,0f,0f]}
+execute if score $a8_a suso_var matches 40 run playsound minecraft:entity.pillager.hurt hostile @a ~ ~ ~ 5 1
+execute if score $a8_a suso_var matches 40 run particle minecraft:angry_villager ~ ~2 ~ 0 0 0 1 1 force
+
+execute if score $a8_a suso_var matches 40 run function suso_de:curator/a8/ensure_he_doesnt_repeat_himself_too_much
+execute if score $a8_a suso_var matches 40 run scoreboard players operation $last_cfg_rng suso_var = $temp suso_var
+execute if score $a8_a suso_var matches 40 if score $temp suso_var matches 0 run tellraw @a [{"text":"<","color":"gray","bold":true},{"text":"The Curator","color":"#600078","bold":true},{"text":"> ","color":"gray"},{"text":"I am the omnipotent ruler of the universe! Open up lord damnit!","color":"gray","bold":false}]
+execute if score $a8_a suso_var matches 40 if score $temp suso_var matches 1 run tellraw @a [{"text":"<","color":"gray","bold":true},{"text":"The Curator","color":"#600078","bold":true},{"text":"> ","color":"gray"},{"text":"I will force this thing open as I forced you into the mortal realm!","color":"gray","bold":false}]
+execute if score $a8_a suso_var matches 40 if score $temp suso_var matches 2 run tellraw @a [{"text":"<","color":"gray","bold":true},{"text":"The Curator","color":"#600078","bold":true},{"text":"> ","color":"gray"},{"text":"Grasping at straws won't do anything for you, \"God\" of Time.","color":"gray","bold":false}]
+execute if score $a8_a suso_var matches 40 if score $temp suso_var matches 3 run tellraw @a [{"text":"<","color":"gray","bold":true},{"text":"The Curator","color":"#600078","bold":true},{"text":"> ","color":"gray"},{"text":"You can't stay locked forever!","color":"gray","bold":false}]
+execute if score $a8_a suso_var matches 40 if score $temp suso_var matches 4 run tellraw @a [{"text":"<","color":"gray","bold":true},{"text":"The Curator","color":"#600078","bold":true},{"text":"> ","color":"gray"},{"text":"There's no one left to save you anymore. Cease this nonsense!","color":"gray","bold":false}]
+
+execute if score $a8_a suso_var matches 300 run data modify entity @s Pose set value {Body:[358f,0f,0f],Head:[356f,0f,0f],LeftLeg:[12f,0f,358f],RightLeg:[10f,0f,10f],LeftArm:[352f,0f,348f],RightArm:[352f,0f,14f]}

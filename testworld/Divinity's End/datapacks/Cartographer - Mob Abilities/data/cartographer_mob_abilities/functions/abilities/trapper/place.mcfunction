@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ #bb:can_raycast positioned ~ ~ ~ run function cartographer_mob_abilities:abilities/trapper/cloud
+execute unless block ~ ~ ~ #bb:can_raycast positioned ~ ~0.2 ~ run function cartographer_mob_abilities:abilities/trapper/place

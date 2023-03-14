@@ -1,0 +1,238 @@
+───────────────────────────────────────────────────────────────────────────────
+                Divinity's End 1.1.6, for Minecraft 1.19.2
+───────────────────────────────────────────────────────────────────────────────
+Length:     15-35 hours
+Objectives: 13 + 16 bonus
+Difficulty: Medium
+
+The map is fully compatible with multiplayer, just make sure to use a vanilla
+(NOT: Spigot, Paper, Forge...) server.
+
+While it's not recommended to use mods, Optifine or Sodium+Phosphor improve
+performance and don't seem to cause major issues as of writing this.
+───────────────────────────────────────────────────────────────────────────────
+Changelog:
+
+1.0.1 (15/02/2021, MC 1.16.5)
+- Noticeably optimized cartographer custom enchantments module.
+- PUFF! Fishe is back.
+- Fixed void death message.
+
+1.0.2 (17/02/2021, MC 1.16.5)
+- Fixed two (2) typos.
+
+1.1.0 (25/07/2022, MC 1.19.1)
+- Updated map to 1.19.
+- General datapack optimizations (recoded a lot of stuff).
+- Pruned savefile.
+- Updated Cartographer.
+- Fixed a broken trap in Babylon.
+- Fixed two-handed items duplicating/erasing other items.
+- Fixed infinity items could duplicating other items.
+- Fixed olympian fire being lost if its bottle was filled with water.
+- Fixed olympian fire being lost if multiple were used at once by the same player.
+- Removed unintended equipment drops from various mobs.
+- Added a towel near the entrance of the beach.
+- Fixed Goldstone Powder missing attributes.
+- Fixed curse of shattering deleting items.
+- Made all blight cure nbt match so they stack properly.
+- Fixed repair station locking up when the player walked away.
+- Removed corrupted chests in intersection 3.
+- Fixed a typo in Omega's bonus item.
+- Fixed a typo in the Sanctum's scribe notes.
+- Vanilla music can no longer play during bossfight.
+- Infinite steel sword no longer adds 7 attack damage in the offhand.
+- Curse of irreparability now shows in advancements.
+- Forceloaded 0 0.
+- Corrected some repair costs in intersection 1 items.
+- Fixed an issue that caused mimics to drop mothing.
+- Brown Eye is now labeled as Bonus Item instead of Secret Item.
+- Runecaster's Rail can now pass through non-solid objects such as tall grass.
+- Fixed Runecaster's Rail checking for raycast one block lower than it should.
+- Grindstones and anvils are now blocked from being used (caused issues with cartographer items).
+- Fixed an issue that made graves impossible to collect when afflicted by the blight toxin.
+- Changed some playsounds to use different sliders/volumes for player convenience.
+- Fixed Frost-Tipped Greatsword's attack speed.
+- Fixed teleporter to area 9 clipping players into the stairs.
+- Fixed a typo in the final essence disc description.
+- Fixed boss fight deleting armor under certain conditions.
+- Fixed Champion's Greaves' attribute modifiers.
+- Prevented key mechanic on area 12 from triggering multiple times.
+- Made Honeycomb Halberd unbreakable, as it claimed to be.
+- Fixed concealed not detecting absoption damage.
+- Fixed players being able to trigger their grave during their death animation.
+- Runecaster's Rail now works when in offhand.
+- Made final area bridge particles forced so players with low graphic settings aren't utterly confused.
+- Modified shulker boxes to support stacked potions (before they would unstack overwriting other item slots).
+- Fixed graves to work with stacked potions.
+- Fixed Defiler's Claw being the same item as Defiler's Breath.
+- Player no longer instantly dies if standing on solid ground within void return range.
+- Added slowness attribute to Freak's Maze lore (had no indication before).
+- Fixed Toughened Leather Helmet missing name.
+- Fixed Blastmail Chestplate missing name.
+- Difficulty now affects bossfight timers.
+- Bossfight recommends you to lower your difficulty after several failed attempts.
+- Missed spawners during bossfight are now marked with glowing.
+- Removed drops from guardians used to control spawning conditions.
+- Removed anvils from boss arena ceiling.
+- Fixed infinity not triggering under certain conditions.
+- It's no longer possible to collect graves during boss battle (caused items to disappear in case of death).
+- Fixed cutscene camera rotations not being smoothed properly.
+- Made Oracle's vents multiplayer friendly, they could be triggered multiple times.
+- Made several dialogs multiplayer friendly, they could be triggered multiple times.
+- Made final area bridge multiplayer friendly, it could be triggered multiple times.
+- Featherstrapped armor set now has shattering, as it claimed.
+- Removed corrupted tile entities from area 12.
+- Stopped Serenade from targetting repair station and monument shulkers.
+- Removed sunglasses from Delphi's mobs.
+- Wither storm enemy observation now has a description.
+- Corrected pickup delays during lobby intro sequence.
+- Fixed nether portal prevention system.
+- Improved warnings for mods, missing/extra datapacks, and wrong minecraft version.
+- Changed Delphi's area effect clouds to markers.
+- Added a sign with version information and download links to the lobby.
+- Rebalanced area 5.
+- Changed some lighting in area 5 to froglights.
+- Protected final essence clone box.
+- Bossfight start dialog is now shorter after several attempts.
+- Rebalanced bossfight timers.
+- Simplified void return to fix inconsistencies.
+- Added a hint for the black gift.
+- Removed a floating tree from area 9.
+- Removed Obama.
+- Fixed an issue that would prevent Beta Bow from triggering if the player had one (1) arrow.
+- Added a system that causes bonus objectives to drop properly when misplaced.
+- Fixed teleporter sounds not playing.
+- Improved advancement disabling.
+- Players no longer have all recipes unlocked, as it caused performance issues.
+- Added explanation to defiler items, making clear each player can only take one.
+- Rebalanced Oracle's bees.
+- Added clearer indications to Oracle's vents.
+- Changed text for Impervious enemies to Invulnerable.
+- Shrines in Court of Ash no longer depend on commandblocks being enabled.
+- Fixed an issue that allowed players to colled all defiled items in multiplayer, regardless of player amount.
+- Added censorship system (enabled only on the realms release).
+- Made Truesight flask renewable (can be collected again at the start of the area if not already carrying one).
+- Fixed a typo in Aeolus' Blessing potion.
+- Made Oracle's teleporter more visible.
+- Added a new Mystic item near Oracle's teleporter (Infused Trident).
+- Changed Tinted Spyglass near start of Oracle's to an actual spyglass.
+- Placed light blocks on Oracle's vent banners.
+- Added sound effects to Oracle's vents so they can be found more easily.
+- Added event at the start of Oracle's to make player look at vent banner.
+- Fixed an issue that caused lobby music to play twice under certain conditions.
+- Fixed a typo in the Edge of Styx scribe notes.
+- Changed Sanctum's scribe notes to count up to 4/3 instead of 4/4.
+- Simplified Alchemist's dialogue, highlighting important information.
+- Added usage instructions to bonus monument.
+- Added a message to inform players that area 13 is now accessible.
+- Added a floor to area 5 fleecy box (for some reason it was just void before).
+
+1.1.1 (02/09/2022, MC 1.19.2)
+- Fixed olympian fire item return when dropped during cooldown.
+- Moved world spawn to solid ground.
+- Changed spirit dialogue distance to match glowing distance.
+- Fixed babylon key mechanic. It wasn't working at all.
+- Fixed bonus objective duplication.
+- Ensured you still get bonus objectives back even if raycast fails.
+- Fixed Chromatican bow, Daredevil, and Betrothed being stopped by carto.
+- Electro force tag now gets properly removed from players.
+- Added Cerulean Echo name into dialogue.
+- Fixed monument jukeboxes not glowing on objective placed.
+- Added new testers to lobby credits.
+- Removed gridstone from the monument's enchant/repair area.
+- Changed a portion of Babylon's tower from concrete into blackstone.
+- Moved a misaligned fence in area 5.
+- Fixed a broken trap in babylon.
+- Removed some floating flowers in area 5.
+- Rebuilt corrupted portion of staircase in area 6.
+- Removed corrupted tile entities from area 12.
+- Made Blade and Mask of the Usurper's ability formatting consistent with the rest of the map.
+- Fixed Olympian Fire's corrupted name.
+- Squashed a typo in the intersection 1 scribe notes.
+- Added spacing to Goldstone Breastplate lore.
+- Readded description to Toughened Leather Boots/Helmet.
+- Fixed grave compatible curse of shattering to work with new carto.
+- Added ca.has_active tag to intersection 1 mobs.
+- Fixed water Time Watcher spawners in area 12.
+- Fixed Ragefire War Axe's corrupted name.
+- Changed "Main Hand" attribute display to be consistent with vanilla on many items.
+- Fixed Amped Up Beatbox's lore existing only server side.
+- Fixed a typo in Render's Hungry Taco.
+- Removed excessive spacing from Apollo's Petition
+- Removed excessive spacing from Kunii's Oversized Sweater
+- Removed excessive spacing from The Widest Claymore.
+- Fixed Runecaster's Rail's corrupted name.
+- Squashed a typo from monument's final scribe notes.
+- Fixed "Off Hand" attribute display for Asakyln & Ras'Kaun.
+- Fixed void spawners to regenerate with 1.18+ light conditions.
+- Obliterated a typo in many more Aeolus' Blessing potions.
+- Fixed "Head" attribute display for Plague Mask.
+- Respectfully banished typo from Emily's 100 Den Piece.
+- Added bear to Obol of the Faithful.
+- Stormcloak Speedrunners are now worn on legs as opposed to hands.
+- Replaced Fire Coral Branch with proper version near the end of area 10.
+- Golem Dismantler lore was confused about the concept of time.
+- Added a period to Glimmering Crystal lore.
+- Added a period to Soulfire Sabre lore.
+- Tread Lightly lore didn't study english prepositions.
+- Added spacing to Titan's Mattock lore.
+- Dart Blower's description incorrectly reported Rend when enchanted with Bleed.
+- Final area can no longer unlock randomly due to the game refusing to load entities.
+- Added a layer of structure voids under river Styx.
+- Updated some cartographer enchantment names to match the current version.
+- Fixed Battleaxe of Brutality that was missing the bleeding tag.
+- Made exploiting riptide tridents in area 12 slightly more inconvenient.
+- Added missing irreparability tags to Lightning Pickaxe.
+- Censored blood particles for realms release.
+- Filled empty dispensers from a trap in Styx.
+- Bumped version to 1.19.2.
+- Removed lifesteal enchantment from two Babylon bows that weren't supposed to have it.
+- Added poison cleansing tag to Bezoar, as it claimed to have.
+- Added exposing tag to Soldier's Longsword, as it claimed to have.
+- Added malevolence tag to Tattered Changelog, as it claimed to have (at this rate this changelog should get it too).
+- Fixed another Frost-Tipped Greatsword that was lying around.
+- Added enchantment glint to Silver Pocket Watch.
+- Added enchantment glint to Palm of the Flame.
+- Added enchantment glint to Defender's Crest.
+- Added enchantment glint to Tattered Bag of Winds.
+- Added enchantment glint to Congealed Vapor.
+- Added enchantment glint to Blightheart.
+- Added enchantment glint to Fated Prophecy.
+- Added enchantment glint to Bloodbat Sniper.
+- Removed unintended frostbite nbt from Cleaving Pick.
+- Added duelist enchant to Scorched Rapier, as it claimed to have.
+- Added regeneration enchant to Warding Tome, as it claimed to have.
+- Added exposing nbt to items that were missing it across the map.
+- Added agility and regeneration enchants to Slippers of Glass, as they claimed to have.
+- Added evasion and adrenaline enchants to Voyager's Visage, as it claimed to have.
+- Fixed Till Death Do Us Part's lore existing only server side.
+- Fixed Niine's Tails' lore existing only server side.
+- Fixed Fux's Stick's lore existing only server side.
+- Removed spaces before the sign of attribute amounts across the map.
+- Corrected attribute display on Warding Sword to reflect its real damage.
+- Corrected attribute display on Dimensional Flamberge to reflect its real damage.
+- Corrected attribute display on Halftime Broadsword to reflect its real damage.
+- Corrected attribute display on Beta Blade to reflect its real damage.
+- Corrected attribute display on Asakyln to reflect its real damage.
+- Corrected attribute display on Ras'Kaun to reflect its real damage.
+- Nerfed Ras'Kaun's attack speed.
+- Fixed an issue that caused Beta Blades to remove attack cooldown even when held on the off hand.
+- Updated cartographer to latest dev version.
+
+1.1.2 (05/09/2022, MC 1.19.2)
+- Fixed an issue that caused irreparable items to get stuck in the repair station.
+
+1.1.3 (14/10/2022, MC 1.19.2)
+- Fixed some custom armor tags not being removed when the armor ran out of durability.
+- Removed unintended enchantments from one of the alchemist's potions.
+- Fixed lore on items claiming to be Conductive to the updated name, Electrode.
+
+1.1.4 (14/10/2022, MC 1.19.2)
+- Fixed repair station getting stuck after putting an item into it quickly after returning a previous one.
+
+1.1.5 (17/10/2022, MC 1.19.2)
+- Fixed doLimitedCrafting being on by default (I don't even know when this happened tbh).
+
+1.1.6 (07/11/2022, MC 1.19.2)
+- Fixed cartographer tags on Thrillseeker and The Red Suitor crossbows.

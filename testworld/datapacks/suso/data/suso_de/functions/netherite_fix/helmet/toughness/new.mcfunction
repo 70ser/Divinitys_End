@@ -1,0 +1,3 @@
+data modify storage s_netfix item.tag.AttributeModifiers append value {AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Amount:1,Operation:0,UUID:[I;550,2711,1,1452212532],Slot:"head"}
+function suso_de:rng/lcg
+execute store result storage s_netfix item.tag.AttributeModifiers[{AttributeName:"generic.armor_toughness",Slot:"head"}].UUID[3] int 1 run scoreboard players get $rng suso_var

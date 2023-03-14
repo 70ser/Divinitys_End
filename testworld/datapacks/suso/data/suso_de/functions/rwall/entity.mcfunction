@@ -1,0 +1,2 @@
+execute if entity @s[tag=rwall_active] unless entity @s[distance=..20] at @s unless entity @a[distance=..20] run function suso_de:rwall/cull_out
+execute if entity @s[tag=!rwall_active,distance=..20] at @s run function suso_de:rwall/cull_in

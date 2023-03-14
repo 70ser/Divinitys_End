@@ -1,0 +1,4 @@
+#giving recharge item 
+give @s dragon_breath{display:{Name:'{"text":"🔥 Olympian Fire (Recharging) 🔥","color":"#C8C0D1","bold":true,"italic":false}',Lore:['{"text":" "}','{"text":"Divine Item","color":"gold","italic":false}','{"text":"Once the most treasured essence in the world,","color":"dark_gray","italic":false}','{"text":"the Flame of the Olympus lays forgotten.","color":"dark_gray","italic":false}','{"text":"The Lord of Order had other matters to attend to.","color":"dark_gray","italic":false}','{"text":" "}','{"text":"Scorched Earth","color":"gray","italic":false,"underlined":true}','{"text":"Throw to set an area on fire. The Olympian Flame","color":"dark_gray","italic":false}','{"text":"is infinite but regenerates slowly.","color":"dark_gray","italic":false}']},HideFlags:33,ofcd:1} 1
+
+tag @s remove of.used

@@ -1,0 +1,2 @@
+function suso_de:netherite_fix/chestplate/knockback/do
+function suso_de:netherite_fix/chestplate/toughness/do

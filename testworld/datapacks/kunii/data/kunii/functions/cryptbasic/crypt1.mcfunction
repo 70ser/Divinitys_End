@@ -1,0 +1,2 @@
+setblock ~ ~ ~ spawner{SpawnCount:6,SpawnRange:5,Delay:0,MinSpawnDelay:200,MaxSpawnDelay:600,MaxNearbyEntities:10,RequiredPlayerRange:16,SpawnData:{id:"minecraft:skeleton",Health:10f,Tags:["cryptbasic"],HandItems:[{id:"minecraft:bone",Count:1b},{}],Attributes:[{Name:generic.max_health,Base:10},{Name:generic.attack_damage,Base:2}]}} replace
+#tags - cryptbasic

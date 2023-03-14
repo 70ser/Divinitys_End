@@ -1,0 +1,1 @@
+#execute as @e[tag=render_wall] at @s run data modify entity @s Time set value -32767

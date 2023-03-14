@@ -1,0 +1,6 @@
+execute as @a at @s run playsound minecraft:item.trident.riptide_3 player @s ~ ~ ~ 1 1.2
+
+#give @a[distance=1.5..] potion{display:{Name:'{"text":"☀ Flask of Echolocation ☀","color":"yellow","bold":true,"italic":false}',Lore:['{"text":"Truesight (0:05)","color":"blue","italic":false}','{"text":"Blindness (0:01)","color":"red","italic":false}','{"text":"Infinity","color":"gray","italic":false}','{"text":" "}','{"text":"Divine Item","color":"gold","italic":false}','{"text":"Drink to reveal what is hidden","color":"dark_gray","italic":false}','{"text":"behind the dimensional tears.","color":"dark_gray","italic":false}','{"text":"The true sight is so strong, it","color":"dark_gray","italic":false}','{"text":"will temporarily overwhelm you.","color":"dark_gray","italic":false}']},HideFlags:32,CustomEnchantments:[{id:"infinity",lvl:1b}],CustomPotionEffects:[{Id:9,Amplifier:99b,Duration:80,ShowParticles:1b},{Id:15,Amplifier:0b,Duration:21,ShowParticles:1b},{Id:24,Amplifier:0b,Duration:100,ShowParticles:1b}],Potion:"minecraft:empty",CustomPotionColor:16774345} 1
+scoreboard players set $picked_render de_pear_var 1
+
+kill @s

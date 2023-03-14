@@ -1,0 +1,2 @@
+execute positioned ^ ^ ^.01 if block ~ ~ ~ #cartographer_core:can_raycast run function adri:monu/place/gift_check/ray
+execute positioned ^ ^ ^.01 if block ~ ~ ~ #adri:glazed_terracotta run function adri:monu/place/gift_check/break

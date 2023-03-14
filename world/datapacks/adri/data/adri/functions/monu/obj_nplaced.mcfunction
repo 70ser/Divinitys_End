@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ jukebox[has_record=true] run function adri:monu/place

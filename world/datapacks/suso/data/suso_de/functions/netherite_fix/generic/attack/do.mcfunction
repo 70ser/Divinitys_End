@@ -1,0 +1,2 @@
+execute if data storage s_netfix item.tag.AttributeModifiers[{AttributeName:"generic.attack_damage",Slot:"mainhand"}] run function suso_de:netherite_fix/generic/attack/add
+execute unless data storage s_netfix item.tag.AttributeModifiers[{AttributeName:"generic.attack_damage",Slot:"mainhand"}] run function suso_de:netherite_fix/generic/attack/new

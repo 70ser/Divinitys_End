@@ -1,0 +1,5 @@
+tellraw @s [{"text":"\n\nArea XIII - ","color":"gray","bold":true,"underlined":false},{"text":"Divinity's End","color":"#FDFFBF","bold":true,"underlined":false,"clickEvent":{"action":"open_url","value":"https://cdn.discordapp.com/attachments/733468941053198386/735919239466188820/waste_of_air.png"}},{"text":"\n                                                                 ","color":"gray","strikethrough":true},{"text":"\n\nBy: ","color":"dark_gray","bold":false,"underlined":false},{"text":"Suso, Asometric, Browneye, Csillagvihar, Gunter,\n Nava & PearUhDox","color":"dark_red","bold":false,"underlined":false},{"text":"\nGameplay: ","color":"dark_gray","bold":false,"underlined":false},{"text":"Nava, PearUhDox & Suso","color":"red","bold":false},{"text":"\nAdditional Help: ","color":"dark_gray","bold":false,"underlined":false},{"text":"Apollo, Blade933, Kunii & Taschneide\n\n","color":"#7A7171","bold":false,"underlined":false}]
+playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ .7 .3 .7
+playsound minecraft:block.netherite_block.fall master @s ~ ~ ~ .8 .1 .8
+playsound minecraft:block.bell.resonate master @s ~ ~ ~ .6 1.3 .6
+tag @s add msg18

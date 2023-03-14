@@ -1,0 +1,1 @@
+execute unless entity @s[tag=rwall_revealed] as @e[type=falling_block,tag=rwall_sand,tag=!rwall_revealed,distance=..10] run function suso_de:rwall/reveal/entity

@@ -1,0 +1,1 @@
+scoreboard players reset $a7_a suso_var

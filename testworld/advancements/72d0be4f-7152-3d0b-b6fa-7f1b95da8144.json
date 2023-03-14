@@ -1,0 +1,163 @@
+{
+  "cartographer_custom_enchantments:root": {
+    "criteria": {
+      "tick": "2023-03-14 13:31:44 +0800"
+    },
+    "done": true
+  },
+  "cartographer_mob_abilities:death/death_abilities": {
+    "criteria": {
+      "tick": "2023-03-14 13:31:44 +0800"
+    },
+    "done": true
+  },
+  "cartographer_core:player_enters_combat_hurt": {
+    "criteria": {
+      "requirement": "2023-03-14 13:34:12 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_enchantments:tree_other": {
+    "criteria": {
+      "tick": "2023-03-14 13:31:44 +0800"
+    },
+    "done": true
+  },
+  "cartographer_mob_abilities:active/active_abilities": {
+    "criteria": {
+      "tick": "2023-03-14 13:31:44 +0800"
+    },
+    "done": true
+  },
+  "example:player_init": {
+    "criteria": {
+      "init": "2023-03-14 13:31:45 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_statuses:root": {
+    "criteria": {
+      "tick": "2023-03-14 13:31:44 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_enchantments:tree_melee": {
+    "criteria": {
+      "tick": "2023-03-14 13:31:44 +0800"
+    },
+    "done": true
+  },
+  "cartographer_mob_abilities:trait/trait_abilities": {
+    "criteria": {
+      "tick": "2023-03-14 13:31:44 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_enchantments:tree_passive": {
+    "criteria": {
+      "tick": "2023-03-14 13:31:44 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_enchantments:tree_ranged": {
+    "criteria": {
+      "tick": "2023-03-14 13:31:44 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_statuses:negative_tree": {
+    "criteria": {
+      "tick": "2023-03-14 13:31:44 +0800"
+    },
+    "done": true
+  },
+  "entityid:entity_hurt_player": {
+    "criteria": {
+      "!bit13": "2023-03-14 13:34:12 +0800",
+      "!bit14": "2023-03-14 13:34:12 +0800",
+      "!bit11": "2023-03-14 13:34:12 +0800",
+      "!bit12": "2023-03-14 13:34:12 +0800",
+      "!bit10": "2023-03-14 13:34:12 +0800",
+      "!bit9": "2023-03-14 13:34:12 +0800",
+      "!bit7": "2023-03-14 13:34:12 +0800",
+      "!bit6": "2023-03-14 13:34:12 +0800",
+      "!bit15": "2023-03-14 13:34:12 +0800",
+      "!bit4": "2023-03-14 13:34:12 +0800",
+      "!bit3": "2023-03-14 13:34:12 +0800",
+      "!bit2": "2023-03-14 13:34:12 +0800",
+      "!bit1": "2023-03-14 13:34:12 +0800",
+      "!bit0": "2023-03-14 13:34:12 +0800",
+      "bit8": "2023-03-14 13:34:12 +0800",
+      "bit5": "2023-03-14 13:34:12 +0800",
+      "typeless": "2023-03-14 13:34:12 +0800",
+      "entity": "2023-03-14 13:34:12 +0800"
+    },
+    "done": true
+  },
+  "cartographer_core:player_leaves_combat_death": {
+    "criteria": {
+      "requirement": "2023-03-14 13:34:22 +0800"
+    },
+    "done": true
+  },
+  "entityid:player_hurt_entity": {
+    "criteria": {
+      "!bit13": "2023-03-14 13:34:47 +0800",
+      "!bit14": "2023-03-14 13:34:47 +0800",
+      "!bit11": "2023-03-14 13:34:47 +0800",
+      "!bit12": "2023-03-14 13:34:47 +0800",
+      "!bit10": "2023-03-14 13:34:47 +0800",
+      "!bit9": "2023-03-14 13:34:47 +0800",
+      "!bit7": "2023-03-14 13:34:47 +0800",
+      "!bit6": "2023-03-14 13:34:47 +0800",
+      "!bit15": "2023-03-14 13:34:47 +0800",
+      "!bit4": "2023-03-14 13:34:47 +0800",
+      "!bit3": "2023-03-14 13:34:47 +0800",
+      "!bit2": "2023-03-14 13:34:47 +0800",
+      "!bit1": "2023-03-14 13:34:47 +0800",
+      "!bit0": "2023-03-14 13:34:47 +0800",
+      "bit8": "2023-03-14 13:34:47 +0800",
+      "bit5": "2023-03-14 13:34:47 +0800",
+      "typeless": "2023-03-14 13:34:47 +0800",
+      "entity": "2023-03-14 13:34:47 +0800"
+    },
+    "done": true
+  },
+  "cartographer_mob_abilities:passive/passive_abilities": {
+    "criteria": {
+      "tick": "2023-03-14 13:31:44 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_enchantments:tree_curse": {
+    "criteria": {
+      "tick": "2023-03-14 13:31:44 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_statuses:positive_tree": {
+    "criteria": {
+      "tick": "2023-03-14 13:31:44 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_enchantments:tree_tool": {
+    "criteria": {
+      "tick": "2023-03-14 13:31:44 +0800"
+    },
+    "done": true
+  },
+  "cartographer_core:player_enters_combat_attack": {
+    "criteria": {
+      "requirement": "2023-03-14 13:34:47 +0800"
+    },
+    "done": true
+  },
+  "cartographer_mob_abilities:root": {
+    "criteria": {
+      "tick": "2023-03-14 13:31:44 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}
