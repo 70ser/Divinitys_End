@@ -1,0 +1,185 @@
+{
+  "suso.dep:inv": {
+    "criteria": {
+      "requirement": "2023-03-16 19:31:39 +0800"
+    },
+    "done": true
+  },
+  "cartographer_core:player_enters_combat_hurt": {
+    "criteria": {
+      "requirement": "2023-03-16 19:30:11 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_enchantments:load_fleetfoot_crossbow": {
+    "criteria": {
+      "load_crossbow_2": "2023-03-16 20:07:48 +0800"
+    },
+    "done": false
+  },
+  "cartographer_mob_abilities:passive/other/breaker": {
+    "criteria": {
+      "found": "2023-03-16 19:45:37 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_enchantments:tree_other": {
+    "criteria": {
+      "tick": "2023-03-16 19:25:30 +0800"
+    },
+    "done": true
+  },
+  "bb:inventory_changed": {
+    "criteria": {
+      "requirement": "2023-03-16 19:31:39 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_statuses:root": {
+    "criteria": {
+      "tick": "2023-03-16 19:25:30 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_enchantments:consume_item": {
+    "criteria": {
+      "requirement": "2023-03-16 19:42:04 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_enchantments:tree_melee": {
+    "criteria": {
+      "tick": "2023-03-16 19:25:30 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_enchantments:tree_ranged": {
+    "criteria": {
+      "tick": "2023-03-16 19:25:30 +0800"
+    },
+    "done": true
+  },
+  "cartographer_mob_abilities:active/charge": {
+    "criteria": {
+      "found": "2023-03-16 21:30:17 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_statuses:negative_tree": {
+    "criteria": {
+      "tick": "2023-03-16 19:25:30 +0800"
+    },
+    "done": true
+  },
+  "cartographer_mob_abilities:passive/passive_abilities": {
+    "criteria": {
+      "tick": "2023-03-16 19:25:30 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_statuses:positive_tree": {
+    "criteria": {
+      "tick": "2023-03-16 19:25:30 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_enchantments:tree_tool": {
+    "criteria": {
+      "tick": "2023-03-16 19:25:30 +0800"
+    },
+    "done": true
+  },
+  "cartographer_core:player_enters_combat_attack": {
+    "criteria": {
+      "requirement": "2023-03-16 19:41:25 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_enchantments:melee/hunter": {
+    "criteria": {
+      "find": "2023-03-16 20:03:26 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_enchantments:root": {
+    "criteria": {
+      "tick": "2023-03-16 19:25:30 +0800"
+    },
+    "done": true
+  },
+  "cartographer_mob_abilities:death/death_abilities": {
+    "criteria": {
+      "tick": "2023-03-16 19:25:30 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_enchantments:passive/evasion": {
+    "criteria": {
+      "find": "2023-03-16 20:57:09 +0800"
+    },
+    "done": true
+  },
+  "cartographer_mob_abilities:active/active_abilities": {
+    "criteria": {
+      "tick": "2023-03-16 19:25:30 +0800"
+    },
+    "done": true
+  },
+  "cartographer_core:inventory_changed": {
+    "criteria": {
+      "requirement": "2023-03-16 19:31:39 +0800"
+    },
+    "done": true
+  },
+  "example:player_init": {
+    "criteria": {
+      "init": "2023-03-16 19:25:31 +0800"
+    },
+    "done": true
+  },
+  "suso_de:inventory_changed": {
+    "criteria": {
+      "requirement": "2023-03-16 19:31:39 +0800"
+    },
+    "done": true
+  },
+  "cartographer_mob_abilities:trait/trait_abilities": {
+    "criteria": {
+      "tick": "2023-03-16 19:25:30 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_enchantments:tree_passive": {
+    "criteria": {
+      "tick": "2023-03-16 19:25:30 +0800"
+    },
+    "done": true
+  },
+  "cartographer_core:player_leaves_combat_death": {
+    "criteria": {
+      "requirement": "2023-03-16 19:46:25 +0800"
+    },
+    "done": true
+  },
+  "entityid:entity_hurt_player": {
+    "criteria": {
+      "is_magic": "2023-03-16 21:43:41 +0800",
+      "bypasses_armor": "2023-03-16 21:43:41 +0800",
+      "entity": "2023-03-16 21:43:41 +0800"
+    },
+    "done": false
+  },
+  "cartographer_custom_enchantments:tree_curse": {
+    "criteria": {
+      "tick": "2023-03-16 19:25:30 +0800"
+    },
+    "done": true
+  },
+  "cartographer_mob_abilities:root": {
+    "criteria": {
+      "tick": "2023-03-16 19:25:30 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}
