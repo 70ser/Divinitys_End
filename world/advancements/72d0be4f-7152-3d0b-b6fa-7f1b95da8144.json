@@ -77,6 +77,12 @@
     },
     "done": true
   },
+  "cartographer_custom_enchantments:melee/duelist": {
+    "criteria": {
+      "find": "2023-03-21 16:26:00 +0800"
+    },
+    "done": true
+  },
   "cartographer_custom_statuses:positive_tree": {
     "criteria": {
       "tick": "2023-03-16 19:25:30 +0800"
@@ -104,6 +110,12 @@
   "cartographer_custom_enchantments:root": {
     "criteria": {
       "tick": "2023-03-16 19:25:30 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_statuses:stunned": {
+    "criteria": {
+      "found1": "2023-03-21 16:26:00 +0800"
     },
     "done": true
   },
@@ -161,14 +173,6 @@
     },
     "done": true
   },
-  "entityid:entity_hurt_player": {
-    "criteria": {
-      "is_magic": "2023-03-16 21:43:41 +0800",
-      "bypasses_armor": "2023-03-16 21:43:41 +0800",
-      "entity": "2023-03-16 21:43:41 +0800"
-    },
-    "done": false
-  },
   "cartographer_custom_enchantments:tree_curse": {
     "criteria": {
       "tick": "2023-03-16 19:25:30 +0800"
@@ -178,6 +182,12 @@
   "cartographer_mob_abilities:root": {
     "criteria": {
       "tick": "2023-03-16 19:25:30 +0800"
+    },
+    "done": true
+  },
+  "cartographer_custom_enchantments:melee/stunning": {
+    "criteria": {
+      "find": "2023-03-21 16:26:00 +0800"
     },
     "done": true
   },
